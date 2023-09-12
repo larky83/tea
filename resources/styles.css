@@ -1,0 +1,96 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;}
+
+#topbar {
+    display: flex;
+    height: 69px;
+    width: 99%;
+    border-bottom: solid 1px seashell;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;}
+
+#logo img {
+    margin-left: 10px;
+    height: 50px;}
+
+#nav a {
+    color: seashell;
+    margin-left: 10px;}
+
+#main {
+    display: flex;
+    height: 700px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;}
+
+#main .content {
+    display: inline-block;
+    text-align: center;
+    background-color: black;
+    width: 1200px; 
+    height: 120px;   
+    line-height: 23px;}
+
+#month {
+    text-align: center;}
+
+#monthitems img {
+    height: 200px;
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+#monthitems {
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;}
+
+#location {
+    display: flex;
+    height: 500px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-size: cover;
+    background-position: right;
+    margin-left: 90px;
+    margin-right: 90px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;}
+
+#location .places {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;}
+
+.address {
+    background-color: black;
+    width: 300px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+
+#location h2 {
+    text-align: center;
+    margin-bottom: 15px;}
+
+#contact {
+    height: 200px;
+    margin-top: -20px;
+    text-align: center;
+}
+
+
+footer {margin-left: 20px;}
